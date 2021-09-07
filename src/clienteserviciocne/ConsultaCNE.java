@@ -156,8 +156,6 @@ public class ConsultaCNE extends javax.swing.JFrame {
 
             String estadoRespuesta = dataJson.getString("resp");
             
-            
-            
             if (estadoRespuesta.equals("ok")) {
                 lblRespuesta.setText(estadoRespuesta);
                 
