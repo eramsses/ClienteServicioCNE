@@ -32,8 +32,8 @@ public class ServiceRequest {
     //public static HttpURLConnection con;
 
     public JSONObject getDataFromService(String identidad, String solicitante) throws Exception {
-        //String postURL = "https://consultahn2021.000webhostapp.com/consultar/getinfoservice";
-        String postURL = "http://cne.local/consultar/getinfoservice";
+        String postURL = "https://consultahn2021.000webhostapp.com/consultar/getinfoservice";
+        //String postURL = "http://cne.local/consultar/getinfoservice";
 
         URL url = new URL(postURL);
         URLConnection con = url.openConnection();
